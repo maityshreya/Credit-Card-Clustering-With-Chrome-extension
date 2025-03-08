@@ -1,13 +1,13 @@
 # Credit-Card-Clustering-With-Chrome-extension
 # Project Overview
-This is a machine learning project that uses credit card customer data to segment customers into meaningful groups. The project combines:
+  This is a machine learning project that uses credit card customer data to segment customers into meaningful groups. The project combines:
 1. Data Science (clustering algorithm)
 2. Backend API (FastAPI)
 3. Frontend Interface (Chrome Extension)
 
 
 # Key Features Of The Project
-1. Machine Learning Features
+Machine Learning Features
 Clustering Algorithm: K-means with 5 clusters
 Data Preprocessing:Automatic missing value handling using mean imputation
 Feature standardization for better clustering
