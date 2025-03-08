@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Cluster Predictor</title>
+    <style>
+        body {
+            width: 400px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            display: none;
+        }
+        .success {
+            background-color: #dff0d8;
+            border: 1px solid #d6e9c6;
+            color: #3c763d;
+        }
+        .error {
+            background-color: #f2dede;
+            border: 1px solid #ebccd1;
+            color: #a94442;
+        }
+    </style>
+</head>
+<body>
+    <h2>Credit Card Cluster Predictor</h2>
+    
+    <div class="form-group">
+        <label for="balance">Balance:</label>
+        <input type="number" id="balance" step="0.01" required>
+    </div>
+
+    <div class="form-group">
+        <label for="purchases">Purchases:</label>
+        <input type="number" id="purchases" step="0.01" required>
+    </div>
+
+    <div class="form-group">
+        <label for="creditLimit">Credit Limit:</label>
+        <input type="number" id="creditLimit" step="0.01" required>
+    </div>
+
+    <button id="predict">Predict Cluster</button>
+
+    <div id="result"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html> 

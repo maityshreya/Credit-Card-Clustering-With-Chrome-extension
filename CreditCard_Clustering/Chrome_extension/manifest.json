@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Credit Card Cluster Predictor",
+    "version": "1.0",
+    "description": "Predict credit card customer segments using machine learning",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.webp",
+            "48": "icon.webp",
+            "128": "icon.webp"
+        }
+    },
+    "icons": {
+        "16": "icon.webp",
+        "48": "icon.webp",
+        "128": "icon.webp"
+    }
+} 
