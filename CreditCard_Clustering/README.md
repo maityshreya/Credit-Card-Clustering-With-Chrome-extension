@@ -38,8 +38,7 @@ credit-card-clustering/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>(e.g. )
-cd credit-card-clustering
+git clone <repository-url>(e.g. https://github.com/maityshreya/Credit-Card-Clustering-With-Chrome-extension)
 ```
 
 2. Create and activate a virtual environment (optional but recommended):
